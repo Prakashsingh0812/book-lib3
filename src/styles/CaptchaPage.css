@@ -1,0 +1,30 @@
+.captcha-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .captcha-container h2 {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .captcha-container button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .captcha-container button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
